@@ -1,0 +1,17 @@
+.pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 10px solid #84d6aa;
+}
+
+.basic-btn{
+    width: 80px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color:#8498D6;
+    color: white;
+    border:none;
+}
+
