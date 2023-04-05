@@ -7,7 +7,7 @@ function AllCharacters() {
     const [ characters, setCharacters ] = useState([])
 
     useEffect (() =>{
-        fetch("https://rickandmortyapi.com/api/character")
+        fetch("https://rickandmortyapi.com/api/character") 
         .then((res)=>res.json())
         .then((data)=>setCharacters(data.results))
     },[])
@@ -21,9 +21,7 @@ function AllCharacters() {
                     <Link to={`/character/${character.id}`}><img src={character.image} alt={character.name} className='pic'/></Link>
                 </div>
             )
-        
             })}
-        
         </>
     )
 }
